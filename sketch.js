@@ -73,7 +73,7 @@ image(Img15, randomX11 - 275, 110, 280, 65);
 //text "World Traveling Kitties!"
  text("World Traveling Kitties!", randomX11 - 235, 145);
  textSize(20)
- textFont('avenir')
+ textFont('helvetica')
  fill(255) 
 //taj mahal
 image(Img9, randomX6, 265, 700, 500);
