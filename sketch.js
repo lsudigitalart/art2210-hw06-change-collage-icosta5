@@ -26,21 +26,21 @@ let randomX8;
 let randomX9;
 
 function preload() {
- Img1 = loadImage("/images/orangecat.png");
- Img2 = loadImage("/images/colusseum.png");
- Img3 = loadImage("/images/stormysky.jpg");
- Img4 = loadImage("/images/pavement.jpg");
- Img5 = loadImage("/images/browncat.png");
- Img6 = loadImage("/images/eiffeltower.png");
- Img7 = loadImage("/images/pisa.png");
- Img8 = loadImage("/images/blackcat.png");
- Img9 = loadImage("/images/tajmahal.png");
- Img10 = loadImage("/images/siberian.png");
- Img11 = loadImage("/images/mainecoon.png");
- Img12 = loadImage("/images/calico.png");
- Img13 = loadImage("/images/liberty.png");
- Img14 = loadImage("/images/plane.png");
- Img15 = loadImage("/images/banner.png");
+ Img1 = loadImage('images/orangecat.png');
+ Img2 = loadImage('images/colusseum.png');
+ Img3 = loadImage('images/stormysky.jpg');
+ Img4 = loadImage('images/pavement.jpg');
+ Img5 = loadImage('images/browncat.png');
+ Img6 = loadImage('images/eiffeltower.png');
+ Img7 = loadImage('images/pisa.png');
+ Img8 = loadImage('images/blackcat.png');
+ Img9 = loadImage('images/tajmahal.png');
+ Img10 = loadImage('images/siberian.png');
+ Img11 = loadImage('images/mainecoon.png');
+ Img12 = loadImage('images/calico.png');
+ Img13 = loadImage('images/liberty.png');
+ Img14 = loadImage('images/plane.png');
+ Img15 = loadImage('images/banner.png');
 }
 
 function setup() {
@@ -73,6 +73,7 @@ image(Img15, randomX11 - 275, 110, 280, 65);
 //text "World Traveling Kitties!"
  text("World Traveling Kitties!", randomX11 - 235, 145);
  textSize(20)
+ textFont('helvetica')
  fill(255) 
 //taj mahal
 image(Img9, randomX6, 265, 700, 500);
