@@ -69,11 +69,11 @@ image(Img4, 0, 750, 1500, 300);
 //plane
 image(Img14, randomX11, 100, 300, 100);
 //banner
-image(Img15, randomX11 - 275, 110, 280, 65);
+image(Img15, randomX11 - 275, 105, 290, 70);
 //text "World Traveling Kitties!"
  text("World Traveling Kitties!", randomX11 - 235, 145);
- textSize(20)
- textFont('helvetica')
+ textSize(23)
+ textFont('BBH Sans Bogle')
  fill(255) 
 //taj mahal
 image(Img9, randomX6, 265, 700, 500);
